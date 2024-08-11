@@ -1,0 +1,49 @@
+.container {
+    width: 100vh;
+    height: 98vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+#square1 {
+    width: 100vh;
+    height: 100vh;
+    background-color: blue;
+    position: absolute;
+    z-index: 1;    /*define a posição dos quadrados*/
+}
+
+#square2 {
+    width: 80vh;
+    height: 80vh;
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+
+#square3 {
+    width: 60vh;
+    height: 60vh;
+    background-color: black;
+    position: absolute;
+    z-index: 3;
+}
+
+#square4 {
+    width: 40vh;
+    height: 40vh;
+    background-color: green;
+    position: absolute;
+    z-index: 4;
+}
+
+#square5 {
+    width: 20vh;
+    height: 20vh;
+    background-color: yellow;
+    position: absolute;
+    z-index: 5;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    background-color: darkgray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text1 {
+    background-color: black;
+    color: white;
+    text-align: end;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border-radius: 2cap;
+}
+
+#text2 {
+    background-color: black;
+    color: white;
+    text-align: start;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    border: 2px solid red;
+    overflow: scroll;
+}
+
+p {
+    border: 100px;
+    border-radius: 5px;
+    margin: 20px;
+}

@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container {
+    background-color: darkgray;
+    display: flex;
+    height: 100vh;
+}
+
+#square1 {
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+}
+
+#square2 {
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    position: absolute;
+    right: 0;
+}
+
+#square3 {
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+#square4 {
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
